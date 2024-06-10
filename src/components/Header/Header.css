@@ -1,0 +1,180 @@
+header {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px 0px;
+    background-color: rgba(97, 94, 94, 0.081);
+}
+
+.headWrapper {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+}
+
+/* 
+.headWrapper.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(97, 94, 94, 0.081);
+
+} */
+
+header .logo {
+    width: 180px;
+
+}
+
+header .headerSearch {
+    width: 100%;
+    height: 55px;
+    margin: auto;
+    border: 1px solid #f0702c;
+    border-radius: 5px;
+    padding: 10px 25px;
+    /* cursor: pointer; */
+    background-color: #fff;
+}
+
+
+
+/* header .headerSearch :hover {
+    width: 100%;
+    height: 50px;
+
+    border: 1px solid #EC6D2E;
+    padding: 10px 25px;
+    border-radius: 5px;
+
+} */
+
+header .headerSearch .Search {
+    width: 100%;
+    /* padding-left: 0p?x; */
+    position: relative;
+}
+
+
+
+header .headerSearch .Search input {
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    outline: none !important;
+
+}
+
+header .headerSearch .Search .searchIcon {
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
+
+header .headerTabs {
+    padding-left: 100px;
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    cursor: pointer;
+
+
+}
+
+header .headerTabs .arrow {
+    position: relative;
+    top: 1px;
+    right: 4px;
+
+}
+
+header .headerTabs li {
+    position: relative;
+}
+
+header .headerTabs li span {
+    cursor: pointer;
+}
+
+header .headerTabs li span img {
+    margin-right: 15px;
+
+}
+
+header .headerTabs li span.badge {
+    width: 21px;
+    height: 21px;
+    color: aliceblue;
+    font-weight: 400;
+    position: absolute;
+    top: -8px;
+    left: 12px;
+}
+
+
+
+
+/* header .headerTab li span{
+    font-size: ;
+} */
+
+
+.dropdownMenu {
+    position: absolute;
+    top: 270%;
+    /* left: 0px; */
+    right: 0px;
+    width: 280px;
+    height: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 50px rgba(0, 0, 0, 0.23);
+    z-index: 100;
+    opacity: 1;
+    background-color: #fff;
+    transition: all 0.1s ease-in-out;
+}
+
+/* custom.css */
+.btn-orange-500 {
+    background-color: #f0712cac;
+    /* This is the Tailwind CSS orange-500 color */
+    border-color: #f0702c;
+    color: white;
+}
+
+.btn-orange-500:hover {
+    background-color: #f0702c;
+    /* Darken the color for hover state */
+    border-color: #f0702c;
+}
+
+.btn-orange-200 {
+    color: #f0702c;
+
+}
+
+.btn-orange-200:hover {
+    color: #f0702c;
+
+}
+
+/* .formdropbox {
+    background-color: white;
+} */
+.catTab2 {
+    padding: 11px 19px !important;
+    font-size: 13px !important;
+    text-transform: capitalize !important;
+    top: 8px;
+
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}

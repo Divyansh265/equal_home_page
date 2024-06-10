@@ -1,0 +1,146 @@
+.main_banner2 {
+    /* height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.25); */
+}
+
+.main_banner2 .main-banner-content2 {
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid rgba(0, 0, 0, 0.25); */
+    padding: 2px 0px;
+    margin: 20px;
+
+}
+
+small {
+    font-size: 14px;
+}
+
+.pull {
+    float: left;
+}
+
+.push {
+    float: right;
+}
+
+.container {
+    width: 100%;
+    /* max-width: 960px; */
+    margin: 5px auto;
+}
+
+.card {
+    height: 100%;
+    /* margin: 20px 0px; */
+    margin-bottom: 30px !important;
+    background-color: rgba(176, 168, 168, 0.081) !important;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/*Card Styling*/
+
+.card__item {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    padding-bottom: 0px;
+    /* margin: auto; */
+
+
+}
+
+.catTab6 {
+    padding: 11px 19px !important;
+    font-size: 13px !important;
+    text-transform: capitalize !important;
+    top: 8px;
+    background-color: #161a16 !important;
+}
+
+.card__item h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card__sub {
+    display: flex;
+    justify-content: center;
+    /* padding: 1px 0px; */
+}
+
+.card__sub .span1 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card__sub .span2 {
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #dedede;
+    background-color: white;
+
+    &__wrap {
+
+        &--inner {
+            padding: 12px;
+        }
+    }
+
+    &__item {
+        padding: 12px 18px 12px 18px;
+    }
+
+    &__sub {
+        padding: 0 18px;
+    }
+
+    &__footer {
+        padding: 18px;
+        overflow: hidden;
+        border-top: 1px solid #dedede;
+    }
+}
+
+/*Card Flex Code*/
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &__wrap {
+
+        &--outer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        &--inner {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+
+            @media (min-width: 480px) {
+                width: 50%;
+            }
+
+            @media (min-width: 1024px) {
+                width: 33.33%;
+            }
+        }
+    }
+}
+
+.flexible {
+    flex-grow: 1;
+}

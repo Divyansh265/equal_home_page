@@ -1,0 +1,37 @@
+.bannerSection1 {
+    padding: 45px 0px;
+
+}
+
+.banner1 {
+    height: 390px !important;
+    /* width: 300px !important; */
+    overflow: hidden !important;
+
+}
+
+.banner2 {
+    height: 390px !important;
+    /* width: 300px !important; */
+    overflow: hidden !important;
+
+}
+
+/* .videobanner {
+    height: 389px !important;
+} */
+
+.bannerSection1 .box {
+    overflow: hidden;
+    border-radius: 4px;
+    cursor: pointer;
+    height: auto;
+}
+
+.bannerSection1 .box:hover img {
+    transform: scale(1.1);
+}
+
+.bannerSection1 .box:hover video {
+    transform: scale(1.1);
+}

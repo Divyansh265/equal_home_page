@@ -1,0 +1,97 @@
+@media only screen and (min-width:320px) and (max-width:767px) {
+  header .part_1 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  header .part_2 {}
+
+  header .part_3 {}
+
+  header .part_1 .navbarToggle {
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+
+  }
+
+  header .part_1 .navbarToggle svg {
+    font-size: 40px !important;
+  }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:992px) {
+  .containe-fluid {
+    padding: 0px 15px !important;
+  }
+
+  .res-hide {
+    display: none !important;
+  }
+
+  header .part_1 img {
+
+    justify-content: center !important;
+  }
+
+  .headerSearch {
+    /* position: fixed !important;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 100vh !important;
+    background: rgba(97, 94, 94, 0.081);
+    align-items: flex-start !important; */
+    /* display: flex !important;
+    flex-direction: column !important; */
+  }
+
+  /* header .headerSearch .search {
+    border: 1px solid rgba(97, 94, 94, 0.081);
+
+  } */
+
+  nav {
+    width: 100% !important;
+    height: 100% !important;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background: #fff;
+    z-index: 1000;
+  }
+
+  nav ul li {
+    width: 100%;
+    margin: 0px !important;
+
+  }
+
+  nav ul li button {
+    width: 100% !important;
+    text-align: left;
+    justify-content: flex-start !important;
+  }
+
+  .nav nav ul li button a {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px !important;
+    padding: 20px 0px;
+    /* font-weight: bold; */
+  }
+
+  .navbarOverlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+
+}

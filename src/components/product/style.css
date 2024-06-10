@@ -1,0 +1,118 @@
+.productThumb {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+
+}
+
+.productThumb .badge {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    background: rgb(224, 41, 41);
+    z-index: 10;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.productThumb .title a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6e6e73 !important;
+    text-decoration: none !important;
+    /* top: 5px; */
+    cursor: pointer;
+
+
+}
+
+.productThumb .title {
+
+    margin: 9px 0px;
+
+    /* top: 5px; */
+}
+
+.productThumb .brand a {
+    padding: -8px 0px;
+    color: #70d18b !important;
+    font-size: 13px;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.productThumb .price {
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 6px;
+    text-decoration: line-through;
+}
+
+.productThumb .oldPrice {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.productThumb:hover {
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) */
+}
+
+.productThumb .imgWrapper {
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.productThumb .imgWrapper .overlay {
+    position: absolute;
+    top: 0px;
+    /* left: 0px; */
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    opacity: 0;
+
+
+
+}
+
+.productThumb:hover .imgWrapper .overlay {
+    opacity: 1;
+
+
+}
+
+.catTab4 {
+    background-color: #70d18b !important;
+    padding: 11px 19px !important;
+    text-transform: capitalize !important;
+    top: 60px;
+    width: 200px;
+}
+
+.catTab4:hover {
+    background-color: #40bb63 !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.productThumb .imgWrapper img {
+    transition: all 0.3s ease-in-out;
+}
+
+.productThumb:hover .imgWrapper img {
+    transform: scale(1.1);
+}

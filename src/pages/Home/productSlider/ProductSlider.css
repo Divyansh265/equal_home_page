@@ -1,0 +1,20 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css');
+
+.homeProduct {
+
+    padding: 15px 0px;
+}
+
+.homeProduct .ProductRow {
+    display: flex;
+    padding: 2px 0px;
+    margin: 20px -15px;
+}
+
+.homeProduct .ProductRow .item {
+    width: 25%;
+
+    /* background: #ccc; */
+    padding: 0px 15px;
+}
